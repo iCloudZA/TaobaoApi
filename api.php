@@ -36,4 +36,3 @@ if (isset($_GET['page']) && isset($_GET['num'])) {
 	$result = array('imgUrl' => $line);
 	echo json_encode($result);
 }
-?>
